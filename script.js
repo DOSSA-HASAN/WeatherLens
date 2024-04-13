@@ -1,5 +1,5 @@
-const apiKey = "d45228feee7f53837714108067a82b08"
-const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?&units=metric&q='
+const apiKey = "add api key"
+const apiUrl = 'add api url'
 
 async function fetchingWeather(city){
     let data = await fetch(apiUrl + city + `&appid=${apiKey}`)
