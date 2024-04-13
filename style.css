@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('https://source.unsplash.com/1600x900/?landscape');
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.fa-magnifying-glass{
+    background-color:  rgba(125, 125, 125, 50%);
+    border-radius: 50%;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#input{
+    background-color:  rgba(124, 124, 124, 50%);
+    opacity: 1;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 10px;
+    width: 70%;
+}
+
+#input::placeholder{
+    color: #fff;
+}
+
+#input:focus{
+    outline: none;
+    color: #fff;
+
+}
+
+.weather-img-container{
+    width: 100%;
+}
+
+.weather-img{
+    font-size: 100px;
+    padding: 20px;
+}
+
+.font-16-w-100, #weather-info, #humidity, #wind-speed{
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.color-white, #weather-info, #humidity, #wind-speed{
+    color: #fff;
+}
+main{
+    width: 350px;
+    background: rgba(0, 0, 0, 20%);
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin:20% auto;
+}
+
+#weather-info, #humidity, #wind-speed{
+    font-size: 15px;
+}
+
+#region, #temp{
+    padding: 10px 0px;
+}
