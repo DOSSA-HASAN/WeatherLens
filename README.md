@@ -3,7 +3,7 @@
 WeatherLens is a user-friendly web application designed to provide real-time weather updates for any location around the globe. Leveraging data from OpenWeatherMap, it offers detailed current weather conditions including temperature, humidity, wind speed, and much more.
 
 ## Live Demo
-[livedemo](git remote add origin https://github.com/DOSSA-HASAN/WeatherLens.git)
+[livedemo](https://github.com/DOSSA-HASAN/WeatherLens.git)
 
 ## Features
 
